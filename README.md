@@ -2,7 +2,7 @@
 Ramanujan College website build by APC
 
 Project Members:
-1. Prashant Kumar
+1. Prashant Kumar Chaursiya
 2. Dwaipyan Singha
 3. Ayush Tiwari
 4. Rituraj Verma
