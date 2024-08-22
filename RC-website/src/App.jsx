@@ -1,15 +1,13 @@
-
+import TopHeader from "./components/TopHeader"
 
 function App() {
   
 
   return (
     <>
-      <div>
-        <h1>Hello </h1>
-       </div>
+      <TopHeader></TopHeader>
     </>
   )
 }
 
-export default App
+export default App;
