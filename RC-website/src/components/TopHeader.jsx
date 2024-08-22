@@ -1,3 +1,9 @@
+import { MdLogin } from "react-icons/md";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa6";
+import { SiGoogletranslate } from "react-icons/si";
+
 const TopHeader = () => {
   return (
     <header>
@@ -8,12 +14,12 @@ const TopHeader = () => {
         <div>RC IGNOU Centre</div>
         <div>RC Virtual Tour</div>
         <div className="pr-[720px]">Research</div>
-        <div>Login</div>
-        <div>in</div>
-        <div>X</div>
-        <div>f</div>
-        <div>translate</div>
-        <div>A-</div>
+        <div><MdLogin />Login</div>
+        <div><FaLinkedinIn /></div>
+        <div><FaXTwitter /></div>
+        <div><FaFacebookF /></div>
+        <div><SiGoogletranslate />हिंदी</div>
+        <div>A-</div>/
         <div>A+</div>
       </div>
     </header>
