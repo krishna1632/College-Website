@@ -5,25 +5,80 @@ import { FaFacebookF } from "react-icons/fa6";
 import { SiGoogletranslate } from "react-icons/si";
 
 const TopHeader = () => {
+  const link_left = [
+    {
+      name: "NAAC",
+    },
+    {
+      name: "NIRF",
+    },
+
+    {
+      name: "IQAC",
+    },
+
+    {
+      name: "RC IGNOU Centre",
+    },
+
+    {
+      name: "RC Virtual Tour",
+    },
+
+    {
+      name: "Research",
+    },
+  ];
+  const link_right = [
+    {
+      icon: <MdLogin />,
+      name: "Login",
+    },
+    {
+      icon: <FaLinkedinIn />,
+    },
+
+    {
+      icon: <FaXTwitter />,
+    },
+
+    {
+      icon: <FaFacebookF />,
+    },
+
+    {
+      icon: <SiGoogletranslate />,
+      name: "हिंदी",
+    },
+
+    {
+      name: "A+ /",
+    },
+
+    {
+      name: "A-",
+    },
+  ];
   return (
     <header>
-      <div className="flex justify-center items-center gap-5 bg-[#463BAC] text-white h-[33px] fontDesign">
-        <div>NAAC</div>
-        <div>NIRF</div>
-        <div>IQAC</div>
-        <div>RC IGNOU Centre</div>
-        <div>RC Virtual Tour</div>
-        <div className="pr-[720px]">Research</div>
-        <div><MdLogin />Login</div>
-        <div><FaLinkedinIn /></div>
-        <div><FaXTwitter /></div>
-        <div><FaFacebookF /></div>
-        <div><SiGoogletranslate />हिंदी</div>
-        <div>A-</div>/
-        <div>A+</div>
+      <div className="flex  items-center gap-5 bg-[#463BAC] text-white h-[33px] fontDesign list-none">
+        {link_left.map((item,index)=>{
+          return <li key={index} className="curser-pointer">
+            {item.name}
+          </li>
+        })}
+        <div className="flex ml-[700px] p">
+        {link_right.map((item,index)=>{
+          return <li key={index} className="curser-pointer">
+            {item.icon}
+            {item.name}
+          </li>
+        })}
+        </div>
+        
       </div>
     </header>
-  )
-}
+  );
+};
 
 export default TopHeader;
