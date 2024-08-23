@@ -1,4 +1,5 @@
 import TopHeader from "./components/TopHeader"
+import Hero from "./components/Hero";
 
 function App() {
   
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <TopHeader></TopHeader>
+      <Hero/>
     </>
   )
 }
