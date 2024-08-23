@@ -1,12 +1,17 @@
 import TopHeader from "./components/TopHeader"
+
 import ContentBox from "./components/ContentBox";
 import Desk from "./components/Desk";
-import Hero from "./components/Hero";
+
+
+
+
 function App() {
 
 
   return (
     <>
+
       <header>
         <TopHeader></TopHeader>
         <ContentBox></ContentBox>
@@ -15,6 +20,9 @@ function App() {
       <main>
         <Desk></Desk>
       </main>
+
+      
+
     </>
   )
 }
