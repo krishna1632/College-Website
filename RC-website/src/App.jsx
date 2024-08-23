@@ -1,11 +1,20 @@
 import TopHeader from "./components/TopHeader"
-
+import ContentBox from "./components/ContentBox";
+import Desk from "./components/Desk";
+import Hero from "./components/Hero";
 function App() {
-  
+
 
   return (
     <>
-      <TopHeader></TopHeader>
+      <header>
+        <TopHeader></TopHeader>
+        <ContentBox></ContentBox>
+        
+      </header>
+      <main>
+        <Desk></Desk>
+      </main>
     </>
   )
 }
