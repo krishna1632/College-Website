@@ -1,48 +1,94 @@
 const Courses = () => {
-  return (
-    const contentData = [
-      {
-        name: 'LIBRARY',
-        image: 'images/Library_logo.png',
-        color: '#6674FC',
-      },
-      {
-        name: 'CENTRE AND CELLS',
-        image: 'images/center.png',
-        color: '#F1E3E3',
-      },
-      {
-        name: 'SOCIETIES',
-        image: 'images/Societies_logo.png',
-        color: '#6674FC',
-      },
-      {
-        name: 'TLC',
-        image: 'images/tlc_logo.png',
-        color: '#F1E3E3',
-      },
-    ]
+
+  const humanities = [
+    {
+      name: 'HUMANITIES',
+      image: 'images/humanities1.jpg',
+      hoverImage: 'images/humanities.jpg',
+      color: '#EEF2FF',
+    }
+  ]
+
+  const commerce = [
+    {
+      name: 'COMMERCE',
+      image: 'images/commerce.jpg',
+      color: '#EEF2FF',
+    }
+  ]
+
+  const science = [
+    {
+      name: 'SCIENCE',
+      image: 'images/sciences.jpg',
+      color: '#EEF2FF',
+    }
+  ]
+
+  const vocation = [
+    {
+      name: 'VOCATION',
+      image: 'images/vocation.jpg',
+      color: '#EEF2FF',
+    }
+  ]
+
   return (
     <>
-      <div className="flex mt-[400px] mx-[300px]">
+      <div className="flex justify-around w-screen mt-20 h-[202px] px-5">
         {
-          contentData.map(
+          humanities.map(
             (item, index) => {
               return (
-                <div key={index} className="flex flex-col justify-start items-center pt-[30px] h-[202px] w-[226px] font-bold cursor-pointer" style={{ backgroundColor: item.color }}>
-                  <span>{item.name}</span>
-                  <img src={item.image} alt="" className="mt-2 h-[139px] w-auto" />
+                <div key={index} className="relative h-[202px] w-[250px] perspective-1000">
+                  <div className="flip-card">
+                    <img src={item.image} alt={item.name} className="front" />
+                    <img src={item.hoverImage} alt={item.name} className="back" />
+                  </div>
                 </div>
               )
             }
           )
         }
+        {
+          commerce.map(
+            (item, index) => {
+              return (
+                <div key={index} className="flex justify-around h-[202px] w-[250px]">
+                  <img src={item.image} alt="" />
+                </div>
+              )
+            }
+          )
+        }
+        {
+          science.map(
+            (item, index) => {
+              return (
 
+                <div key={index} className="flex justify-around h-[202px] w-[250px]">
+                  <img src={item.image} alt="" />
+                </div>
 
+              )
+            }
+          )
+        }
+        {
+          vocation.map(
+            (item, index) => {
+              return (
+
+                <div key={index} className="flex justify-around h-[202px] w-[250px]">
+                  <img src={item.image} alt="" />
+                </div>
+
+              )
+            }
+          )
+        }
       </div>
     </>
-  )
-}
   )
 }
 

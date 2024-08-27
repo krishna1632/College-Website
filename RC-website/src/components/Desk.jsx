@@ -18,8 +18,8 @@ const Desk = () => {
         <div className="h-[478px] w-[600px]">
           <h1 className="font-semibold text-3xl pl-10">About Ramanujan College</h1>
           <p className="pt-8 pl-5 pr-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, facilis nemo! Consequatur quidem nisi itaque velit repudiandae deserunt placeat asperiores sed dolorem optio. Fugiat aliquid eos, corporis distinctio rem delectus.
-          Aliquid deleniti temporibus similique fuga, maxime natus numquam non excepturi impedit placeat aspernatur minus vero quaerat enim harum neque illo autem ratione error perferendis distinctio, fugit doloremque! Sit, sint dolores Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate sequi sapiente quibusdam, voluptas eum esse natus repellat ipsa tempora! Delectus sunt nam alias suscipit quasi dolorem hic eius similique harum.
-          Nisi maxime, eius corporis accusantium repudiandae magni neque ratione molestias eligendi minima quae obcaecati quas temporibus commodi rerum praesentium voluptatibus id esse distinctio perferendis enim illum tenetur odio voluptas. Fugit.</p>
+            Aliquid deleniti temporibus similique fuga, maxime natus numquam non excepturi impedit placeat aspernatur minus vero quaerat enim harum neque illo autem ratione error perferendis distinctio, fugit doloremque! Sit, sint dolores Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate sequi sapiente quibusdam, voluptas eum esse natus repellat ipsa tempora! Delectus sunt nam alias suscipit quasi dolorem hic eius similique harum.
+            Nisi maxime, eius corporis accusantium repudiandae magni neque ratione molestias eligendi minima quae obcaecati quas temporibus commodi rerum praesentium voluptatibus id esse distinctio perferendis enim illum tenetur odio voluptas. Fugit.</p>
         </div>
 
       </div>
