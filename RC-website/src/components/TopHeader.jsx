@@ -63,8 +63,8 @@ const TopHeader = () => {
 
   return (
     <>
-      <div className="flex items-center gap-5 bg-[#463BAC] text-white font-bold h-[33px] w-auto fontDesign list-none">
-        <div className="flex items-center gap-7 ml-[90px] cursor-pointer">
+      <div className="flex justify-around items-center gap-5 bg-[#463BAC] text-white font-bold h-[33px] w-screen fontDesign list-none">
+        <div className="flex items-center gap-9"> 
           {link_one.map((item, index) => {
             return <li key={index}>
               {item.name}
@@ -72,7 +72,8 @@ const TopHeader = () => {
           })}
         </div>
 
-        <div className="flex items-center gap-5 ml-[700px] cursor-pointer">
+
+        <div className="flex items-center">
           {link_two.map((item, index) => {
             return <li key={index}>
               <span className="flex items-center gap-2">
@@ -83,7 +84,7 @@ const TopHeader = () => {
           })}
         </div>
 
-        <div className="flex items-center gap-3 ml-[20px] cursor-pointer">
+        <div className="flex items-center gap-3">
           {link_three.map((item, index) => {
             return <li key={index}>
               {item.icon}
@@ -91,7 +92,7 @@ const TopHeader = () => {
           })}
         </div>
 
-        <div className="flex items-center gap-3 ml-[50px] cursor-pointer">
+        <div className="flex items-center">
           {link_four.map((item, index) => {
             return <li key={index}>
               <span className="flex items-center gap-2">{item.icon}
@@ -100,6 +101,7 @@ const TopHeader = () => {
           })}
         </div>
       </div>
+
     </>
   );
 };
@@ -107,30 +109,3 @@ const TopHeader = () => {
 export default TopHeader;
 
 
-{/* <div className="flex gap-6">
-          <div className="flex justify-center items-center gap-5 ml-[50px]">
-            {link_two.map((item, index) => {
-              return <li key={index} className="curser-pointer">
-                {item.icon}
-                {item.name}
-              </li>
-            })}
-          </div>
-
-          <div className="flex justify-center items-center gap-5 mr-[50px]">
-            {link_three.map((item, index) => {
-              return <li key={index} className="curser-pointer">
-                {item.icon}
-              </li>
-            })}
-          </div>
-        </div>
-
-        <div className="flex justify-center items-center gap-3 ml-[200px]">
-          {link_four.map((item, index) => {
-            return <li key={index} className="curser-pointer">
-              {item.icon}
-              {item.name}
-            </li>
-          })}
-        </div> */}
