@@ -11,7 +11,7 @@
 }
 
 .fontDesign{
-  font-family:Arial, Helvetica, sans-serif;
+  
   font-size: 10px;
   box-shadow: 0px 1px 30px rgb(64, 62, 62);
 }
@@ -24,3 +24,4 @@
 .ramanujan_text{
   text-shadow: 2px 7px 10px rgb(108, 104, 104);
 }
+

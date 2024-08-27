@@ -23,7 +23,7 @@ const ContentBox = () => {
   ]
   return (
     <>
-      <div className="flex mt-[400px] mx-[300px]">
+      <div className="flex justify-center mt-[400px] mx-[300px]">
         {
           contentData.map(
             (item, index) => {
