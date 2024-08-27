@@ -23,14 +23,14 @@ const ContentBox = () => {
   ]
   return (
     <>
-      <div className="flex justify-center mt-[400px] mx-[300px]">
+      <div className="flex justify-center  mx-[230px]">
         {
           contentData.map(
             (item, index) => {
               return (
-                <div key={index} className="flex flex-col justify-start items-center pt-[30px] h-[202px] w-[226px] font-bold cursor-pointer" style={{backgroundColor: item.color}}>
+                <div key={index} className="flex flex-col justify-start items-center pt-[30px] h-[300px] w-[900px] font-bold cursor-pointer" style={{backgroundColor: item.color}}>
                   <span>{item.name}</span>
-                  <img src={item.image} alt="" className="mt-2 h-[139px] w-auto" />
+                  <img src={item.image} alt="" className="mt-2 h-[260px] w-auto" />
                 </div>
               )
             }
