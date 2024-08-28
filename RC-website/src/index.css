@@ -1,7 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body{
   overflow-x: hidden;
@@ -127,4 +127,25 @@ body{
 
 .bgimage{
   z-index: -1;
+}
+
+.parallax-container {
+  position: relative;
+  width: 100vw;
+  height: 270px;
+}
+
+.parallax-container .parallax-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 270px;
+  background: rgba(0, 0, 0, 0.6); /* Black overlay with opacity */
+  z-index: 1; /* Overlay should be on top of the image */
+}
+
+.parallax-content {
+  position: relative;
+  z-index: 2; /* Content should be above the overlay */
 }
