@@ -10,7 +10,7 @@ import ContentBox from "./ContentBox";
 function Hero() {
   return (
     <React.Fragment>
-     <div className="h-[1000px]">
+     <div className="h-[900px]">
      <Parallax
           
           bgImage="Hero_images/bg2.jpg"
