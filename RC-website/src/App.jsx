@@ -1,5 +1,4 @@
 import TopHeader from "./components/TopHeader"
-import ContentBox from "./components/ContentBox";
 import Desk from "./components/Desk";
 
 import Hero from "./components/Hero"
@@ -18,9 +17,6 @@ function App() {
         <TopHeader></TopHeader>
 
 
-        <Hero></Hero>
-        <ContentBox></ContentBox>
-        <TopHeader></TopHeader>
         <Hero></Hero>
 
 
