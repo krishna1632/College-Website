@@ -5,15 +5,19 @@ import { Parallax } from "react-parallax";
 import ContentBox from "./ContentBox";
 
 
+
+
 function Hero() {
   return (
     <React.Fragment>
-      <Parallax
-        bgImage="Hero_images/bg2.jpg"
-        strength={300} // Adjust strength as needed
-        className="h-[1000px] w-full"
-      >
-        <div className="h-full text-[#fff] ">
+     <div className="h-[1000px]">
+     <Parallax
+          
+          bgImage="Hero_images/bg2.jpg"
+          strength={300} // Adjust strength as needed
+          className=" h-[900px] w-full object-cover bgimage"
+          >
+        <div className=" text-[#fff] ">
           <div className="flex justify-around	items-center mt-7">
             <div className="flex gap-6">
               <div>
@@ -70,13 +74,17 @@ function Hero() {
                 KNOW MORE
               </div>
           </div>
-            <div className="flex justify-center mt-60">
-
-            <ContentBox></ContentBox>
-            </div>
+           
           
         </div>
+
+     
       </Parallax>
+      <div className="flex justify-center container">
+
+      <ContentBox></ContentBox>
+      </div>
+      </div>
     </React.Fragment>
   );
 }

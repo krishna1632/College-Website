@@ -118,3 +118,13 @@ body{
   
   transform: translateZ(-40px);
 }
+
+
+.container{
+  margin-top: -200px;
+  z-index: 9999;
+}
+
+.bgimage{
+  z-index: -1;
+}
