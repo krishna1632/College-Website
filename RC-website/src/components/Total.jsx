@@ -10,8 +10,10 @@ const Total = () => {
           blur={0}
           bgImage='images/students.jpg'
           strength={300}
-          className='relative h-[300px] w-screen'
-          style={{ height: '500px' }}
+          className='relative w-screen'
+          bgImageStyle={{
+            objectFit: 'cover', 
+          }}
         >
           
         </Parallax>
