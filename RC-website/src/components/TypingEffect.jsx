@@ -10,7 +10,7 @@ const TypingEffect = () => {
     const options = {
       strings: [
         "WELCOME TO RAMANUJAN COLLEGE",
-        "FOLLOW YOUR DREAMS @ RAMANUJAN COLLEGE "
+        "FOLLOW YOUR DREAMS @RAMANUJAN COLLEGE "
         
       ],
       loop: true,
