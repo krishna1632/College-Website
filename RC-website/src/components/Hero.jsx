@@ -15,7 +15,7 @@ function Hero() {
           
           bgImage="Hero_images/bg2.jpg"
           strength={280} // Adjust strength as needed
-          className=" h-[900px] w-full object-cover bgimage"
+          className=" h-[800px] w-full object-cover bgimage"
           >
         <div className=" text-[#fff] ">
           <div className="flex justify-around	items-center mt-7">
