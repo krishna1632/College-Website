@@ -14,7 +14,7 @@ function Hero() {
      <Parallax
           
           bgImage="Hero_images/bg2.jpg"
-          strength={300} // Adjust strength as needed
+          strength={280} // Adjust strength as needed
           className=" h-[900px] w-full object-cover bgimage"
           >
         <div className=" text-[#fff] ">
