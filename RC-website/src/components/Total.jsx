@@ -1,17 +1,19 @@
 import CountUp from 'react-countup';
-import {Parallax} from 'react-scroll-parallax'
+import { Parallax } from 'react-parallax';
 
 const Total = () => {
 
   return (
     <>
-      <div className='relative mt-7 h-[300px] w-screen'>
+      <div className='relative mt-7 h-[500px] w-screen'>
         <Parallax
-          className='absolute inset-0'
-          y={[-50, 50]}
-          tagOuter="figure"
+          blur={0}
+          bgImage='images/students.jpg'
+          strength={300}
+          className='relative h-[300px] w-screen'
+          style={{ height: '500px' }}
         >
-          <img src="images/students.jpg" alt="" className='size-full object-cover opacity-70' />
+          
         </Parallax>
         <div className='absolute inset-0 bg-black opacity-60'></div>
         <div className='absolute inset-0 flex items-center justify-around text-white'>
