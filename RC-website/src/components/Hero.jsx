@@ -2,6 +2,8 @@ import React from "react";
 import { IoHome } from "react-icons/io5";
 import TypingEffect from "./TypingEffect";
 import { Parallax } from "react-parallax";
+import ContentBox from "./ContentBox";
+
 
 function Hero() {
   return (
@@ -9,7 +11,7 @@ function Hero() {
       <Parallax
         bgImage="Hero_images/bg2.jpg"
         strength={300} // Adjust strength as needed
-        className="h-[1000px] w-full"
+        className="h-[] w-full"
       >
         <div className="h-full text-[#fff] ">
           <div className="flex justify-around	items-center mt-7">
@@ -37,7 +39,7 @@ function Hero() {
               </div>
 
               <div className="">
-                <img className=" h-[85px]" src="public/location.png" alt="" />
+                <img className=" h-[85px]" src="public/Hero_images/location.png" alt="" />
               </div>
             </div>
           </div>
@@ -54,7 +56,7 @@ function Hero() {
               <li>Placement</li>
               <li>Other-Activities</li>
               <li>
-                <img src="public/search.png" alt="" className="h-[50px]" />
+                <img src="public/Hero_images/search.png" alt="" className="h-[50px]" />
               </li>
             </ul>
           </nav>
@@ -68,6 +70,11 @@ function Hero() {
                 KNOW MORE
               </div>
           </div>
+            <div className="flex justify-center mt-80">
+
+            <ContentBox></ContentBox>
+            </div>
+          
         </div>
       </Parallax>
     </React.Fragment>

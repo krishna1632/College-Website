@@ -17,10 +17,8 @@ function App() {
       <ParallaxProvider>
         <header>
           <TopHeader></TopHeader>
-
-
           <Hero></Hero>
-          <ContentBox></ContentBox>
+          
 
         </header>
         <main>
