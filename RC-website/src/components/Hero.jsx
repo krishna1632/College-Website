@@ -11,7 +11,7 @@ function Hero() {
       <Parallax
         bgImage="Hero_images/bg2.jpg"
         strength={300} // Adjust strength as needed
-        className="h-[] w-full"
+        className="h-[1000px] w-full"
       >
         <div className="h-full text-[#fff] ">
           <div className="flex justify-around	items-center mt-7">
@@ -70,7 +70,7 @@ function Hero() {
                 KNOW MORE
               </div>
           </div>
-            <div className="flex justify-center mt-80">
+            <div className="flex justify-center mt-60">
 
             <ContentBox></ContentBox>
             </div>
