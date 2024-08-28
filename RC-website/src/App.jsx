@@ -20,6 +20,9 @@ function App() {
 
         <Hero></Hero>
         <ContentBox></ContentBox>
+        <TopHeader></TopHeader>
+        <Hero></Hero>
+
 
       </header>
       <main>
