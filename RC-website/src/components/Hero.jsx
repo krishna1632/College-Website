@@ -4,17 +4,13 @@ import TypingEffect from "./TypingEffect";
 import { Parallax } from "react-parallax";
 import ContentBox from "./ContentBox";
 
-
-
-
 function Hero() {
   return (
     <React.Fragment>
-      <div className="h-[900px] w-full">
+      <div className="w-screen big-container bg-red-950">
         <Parallax
-
           bgImage="Hero_images/bg3.jpg"
-          strength={280} // Adjust strength as needed
+          strength={290} // Adjust strength as needed
           className=" h-[750px] w-full object-cover bgimage"
         >
           <div className=" text-[#fff] ">
@@ -43,13 +39,17 @@ function Hero() {
                 </div>
 
                 <div className="">
-                  <img className=" h-[85px]" src="public/Hero_images/location.png" alt="" />
+                  <img
+                    className=" h-[85px]"
+                    src="public/Hero_images/location.png"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
 
-            <nav className="flex justify-center  text-[#fff]">
-              <ul className="flex gap-12 text-[1.3rem] list-none  mt-8 items-center">
+            <nav className="flex justify-center  text-[#fff] navbar">
+              <ul className="flex gap-12 text-[1.3rem] list-none  mt-8 items-center cursor-pointer">
                 <li>
                   <IoHome />
                 </li>
@@ -60,7 +60,11 @@ function Hero() {
                 <li>Placement</li>
                 <li>Other-Activities</li>
                 <li>
-                  <img src="public/Hero_images/search.png" alt="" className="h-[50px]" />
+                  <img
+                    src="public/Hero_images/search.png"
+                    alt=""
+                    className="h-[50px]"
+                  />
                 </li>
               </ul>
             </nav>
@@ -70,18 +74,13 @@ function Hero() {
                 <TypingEffect />
               </div>
 
-              <div className="btn-pink cursor-pointer mx-auto mt-4">
+              <div className="btn-pink cursor-pointer mx-auto mt-4 hover:text-black z-50">
                 KNOW MORE
               </div>
             </div>
-
-
           </div>
-
-
         </Parallax>
         <div className="container">
-
           <ContentBox></ContentBox>
         </div>
       </div>

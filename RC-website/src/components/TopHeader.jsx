@@ -63,7 +63,7 @@ const TopHeader = () => {
 
   return (
     <>
-      <div className="flex justify-around items-center gap-5 bg-[#463BAC] text-white font-bold h-[33px] w-screen font_Design list-none">
+      <div className="flex justify-around items-center gap-5 bg-[#463BAC] text-white font-bold h-[33px] w-screen font_Design list-none cursor-pointer">
         <div className="flex items-center gap-9"> 
           {link_one.map((item, index) => {
             return <li key={index}>
