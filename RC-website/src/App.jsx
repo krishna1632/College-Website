@@ -20,7 +20,7 @@ function App() {
 
 
       </header>
-      <main>
+      <main className="h-auto gap-[100px]">
         <Desk></Desk>
         <NewsEvents></NewsEvents>
         <Courses></Courses>

@@ -5,8 +5,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 body{
   overflow-x: hidden;
 }
@@ -25,12 +23,9 @@ body{
 }
 
 
-
-
 .ramanujan_text{
   text-shadow: 6px 9px 17px rgb(64, 62, 62);
 }
-
 
 
 .perspective-1000 {
@@ -83,19 +78,20 @@ body{
   font-weight: 500;
   border:solid 3px transparent;
   position: relative;
-  z-index: 2;
+  z-index: 999;
   border-radius: 13px;
 }
 
 .btn-pink::before{
   content: "";
   position: absolute;
-  background-color:#F1E3E3;
+  background-color:#FFFFFF00;
+  
   top: 0px;
   left: 0;
   right: 0;
   bottom: 0px;
-  z-index: 2;
+  z-index: 999;
   transform: scaleX(0);
   transform-origin:left ;
   transition: all 0.8s;
@@ -121,17 +117,20 @@ body{
 } */
 
 
-.container{
+/* .container{
 
   position: relative;
   top: -200px;
-  z-index: 9999;
+  
 
+} */
+.big-container{
+  z-index: -89;
 }
 
-.bgimage{
+/* .bgimage{
   z-index: -1;
-}
+} */
 
 .parallax-container {
   position: relative;
