@@ -10,17 +10,13 @@ import ContentBox from "./ContentBox";
 function Hero() {
   return (
     <React.Fragment>
-<<<<<<< HEAD
      <div className="h-[900px] w-full">
      <Parallax
           
           bgImage="Hero_images/bg3.jpg"
-=======
-      <div className="h-[900px]">
         <Parallax
 
           bgImage="Hero_images/bg2.jpg"
->>>>>>> e04358890a1e45f0d40f9bff3b56f15978022a64
           strength={280} // Adjust strength as needed
           className=" h-[750px] w-full object-cover bgimage"
         >
@@ -55,7 +51,6 @@ function Hero() {
               </div>
             </div>
 
-<<<<<<< HEAD
           <nav className="flex justify-center  text-[#fff]">
             <ul className="flex gap-12 text-[1.3rem] list-none  mt-8 items-center">
               <li>
@@ -72,7 +67,6 @@ function Hero() {
               </li>
             </ul>
           </nav>
-=======
             <nav className="flex  text-[#fff]">
               <ul className="flex gap-20 text-[1.3rem] list-none pl-52 mt-8 items-center">
                 <li>
@@ -89,7 +83,6 @@ function Hero() {
                 </li>
               </ul>
             </nav>
->>>>>>> e04358890a1e45f0d40f9bff3b56f15978022a64
 
             <div className="flex justify-center flex-col mt-36">
               <div className="text-[2.3rem] font-bold flex justify-center ">
