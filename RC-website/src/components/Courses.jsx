@@ -3,7 +3,7 @@ const Courses = () => {
   const humanities = [
     {
       name: 'HUMANITIES',
-      image: 'images/humanities1.jpg',
+      image: 'images/humanities1.png',
       hoverImage: 'images/humanities.jpg',
       color: '#EEF2FF',
     }
@@ -12,7 +12,8 @@ const Courses = () => {
   const commerce = [
     {
       name: 'COMMERCE',
-      image: 'images/commerce.jpg',
+      image: 'images/Commerce_logo.png', 
+      hoverImage: 'images/commerce.jpg',
       color: '#EEF2FF',
     }
   ]
@@ -20,7 +21,8 @@ const Courses = () => {
   const science = [
     {
       name: 'SCIENCE',
-      image: 'images/sciences.jpg',
+      image: 'images/sciences1.png', 
+      hoverImage: 'images/sciences.jpg',
       color: '#EEF2FF',
     }
   ]
@@ -28,19 +30,20 @@ const Courses = () => {
   const vocation = [
     {
       name: 'VOCATION',
-      image: 'images/vocation.jpg',
+      image: 'images/vocation_logo.png', 
+      hoverImage: 'images/vocation.jpg',
       color: '#EEF2FF',
     }
   ]
 
   return (
     <>
-      <div className="flex justify-around w-screen mt-20 h-[202px] px-5">
+      <div className="flex justify-around items-center w-screen mt-20 h-[270px] bg-[#f6f9f6]">
         {
           humanities.map(
             (item, index) => {
               return (
-                <div key={index} className="relative h-[202px] w-[250px] perspective-1000">
+                <div key={index} className="relative h-[250px] w-[250px] perspective-1000">
                   <div className="flip-card">
                     <img src={item.image} alt={item.name} className="front" />
                     <img src={item.hoverImage} alt={item.name} className="back" />
@@ -54,8 +57,11 @@ const Courses = () => {
           commerce.map(
             (item, index) => {
               return (
-                <div key={index} className="flex justify-around h-[202px] w-[250px]">
-                  <img src={item.image} alt="" />
+                <div key={index} className="relative h-[250px] w-[250px] perspective-1000">
+                  <div className="flip-card">
+                    <img src={item.image} alt={item.name} className="front" />
+                    <img src={item.hoverImage} alt={item.name} className="back" />
+                  </div>
                 </div>
               )
             }
@@ -66,8 +72,11 @@ const Courses = () => {
             (item, index) => {
               return (
 
-                <div key={index} className="flex justify-around h-[202px] w-[250px]">
-                  <img src={item.image} alt="" />
+                <div key={index} className="relative h-[250px] w-[250px] perspective-1000">
+                  <div className="flip-card">
+                    <img src={item.image} alt={item.name} className="front" />
+                    <img src={item.hoverImage} alt={item.name} className="back" />
+                  </div>
                 </div>
 
               )
@@ -79,8 +88,11 @@ const Courses = () => {
             (item, index) => {
               return (
 
-                <div key={index} className="flex justify-around h-[202px] w-[250px]">
-                  <img src={item.image} alt="" />
+                <div key={index} className="relative h-[202px] w-[250px] perspective-1000">
+                  <div className="flip-card">
+                    <img src={item.image} alt={item.name} className="front" />
+                    <img src={item.hoverImage} alt={item.name} className="back" />
+                  </div>
                 </div>
 
               )
