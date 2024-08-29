@@ -8,6 +8,13 @@ import Courses from "./components/Courses";
 import Total from "./components/Total";
 
 
+
+const images = [
+  'bg3.jpg',
+  'bg2.jpg',
+  'bg1.jpg',
+];
+
 function App() {
 
   return (
@@ -15,17 +22,13 @@ function App() {
 
       <header>
         <TopHeader></TopHeader>
-
-
-        <Hero></Hero>
-
+        <Hero  images={images}></Hero>
 
       </header>
       <main>
         <Desk></Desk>
         <NewsEvents></NewsEvents>
         <Courses></Courses>
-
         <Total></Total>
 
       </main>

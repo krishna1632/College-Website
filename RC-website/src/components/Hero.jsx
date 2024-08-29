@@ -10,10 +10,10 @@ import ContentBox from "./ContentBox";
 function Hero() {
   return (
     <React.Fragment>
-     <div className="h-[900px]">
+     <div className="h-[900px] w-full">
      <Parallax
           
-          bgImage="Hero_images/bg2.jpg"
+          bgImage="Hero_images/bg3.jpg"
           strength={280} // Adjust strength as needed
           className=" h-[750px] w-full object-cover bgimage"
           >
@@ -48,8 +48,8 @@ function Hero() {
             </div>
           </div>
 
-          <nav className="flex  text-[#fff]">
-            <ul className="flex gap-20 text-[1.3rem] list-none pl-52 mt-8 items-center">
+          <nav className="flex justify-center  text-[#fff]">
+            <ul className="flex gap-12 text-[1.3rem] list-none  mt-8 items-center">
               <li>
                 <IoHome />
               </li>
@@ -70,7 +70,7 @@ function Hero() {
                 <TypingEffect />
               </div>
 
-              <div className="btn-pink mx-auto mt-4">
+              <div className="btn-pink cursor-pointer mx-auto mt-4">
                 KNOW MORE
               </div>
           </div>
