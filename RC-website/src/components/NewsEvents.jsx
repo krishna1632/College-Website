@@ -24,8 +24,8 @@ const NewsEvents = () => {
 
   return (
     <>
-      <div className="w-screen bg-[#F9F9F6]">
-        <div className="h-[557px] w-[1170px] py-5 mx-[160px] flex overflow-x-hidden">
+      <div className="flex justify-center bg-[#f6f9f6]">
+        <div className="flex justify-around w-[1170px]">
           <div className="w-[665px] h-[510px] px-2">
             <div className="h-[510px] w-[650px] overflow-hidden">
               <h2 className="flex items-center text-2xl">
@@ -98,3 +98,6 @@ const NewsEvents = () => {
 };
 
 export default NewsEvents;
+
+
+// bg-[#f6f9f6]

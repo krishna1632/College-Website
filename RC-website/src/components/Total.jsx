@@ -5,7 +5,7 @@ const Total = () => {
   return (
     <>
       <div className='mt-7'>
-        <Parallax blur={0} bgImage='images/exp.jpg' strength={300} className='parallax-container w-screen h-[270px]'>
+        <Parallax blur={0} bgImage='images/rc.jpg' strength={300} className='parallax-container w-screen h-[270px]'>
           <div className='parallax-overlay'></div>
           <div className='parallax-content absolute inset-0 flex justify-around items-center text-white pt-20'>
             <div className='flex flex-col gap-5 items-center'>

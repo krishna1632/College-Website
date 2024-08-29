@@ -121,7 +121,9 @@ body{
 
 
 .container{
-  margin-top: -200px;
+  
+  position: relative;
+  top: -200px;
   z-index: 9999;
 }
 
