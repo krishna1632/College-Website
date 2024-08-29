@@ -23,7 +23,7 @@ const ContentBox = () => {
   ]
   return (
     <>
-      <div className="flex w-screen justify-center bg-slate-900">
+      <div className="flex w-screen justify-center">
         <div className="flex w-[1170px] bg-green-500">
           {
             contentData.map(
