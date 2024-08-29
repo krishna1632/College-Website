@@ -123,10 +123,6 @@ body{
 
 .container{
 
-  margin-top: -200px;
-  z-index: 0;
-
-  
   position: relative;
   top: -200px;
   z-index: 9999;

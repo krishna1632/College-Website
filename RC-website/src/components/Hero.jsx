@@ -80,7 +80,7 @@ function Hero() {
 
 
         </Parallax>
-        <div className="flex justify-center container">
+        <div className="container">
 
           <ContentBox></ContentBox>
         </div>
