@@ -1,19 +1,13 @@
 import TopHeader from "./components/TopHeader"
 import Desk from "./components/Desk";
-
 import Hero from "./components/Hero"
-
 import NewsEvents from "./components/NewsEvents";
 import Courses from "./components/Courses";
 import Total from "./components/Total";
 
 
 
-const images = [
-  'bg3.jpg',
-  'bg2.jpg',
-  'bg1.jpg',
-];
+
 
 function App() {
 
@@ -22,7 +16,8 @@ function App() {
 
       <header>
         <TopHeader></TopHeader>
-        <Hero  images={images}></Hero>
+        <Hero></Hero>
+
 
       </header>
       <main>
@@ -30,7 +25,6 @@ function App() {
         <NewsEvents></NewsEvents>
         <Courses></Courses>
         <Total></Total>
-
       </main>
     </>
   )
