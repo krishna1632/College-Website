@@ -30,7 +30,7 @@ const TypingEffect = () => {
     };
   }, []); // Empty dependency array ensures this effect runs only once
 
-  return <span className="role" ref={typedRef}></span>; // Use the ref for Typed.js
+  return <span className="role random" ref={typedRef}></span>; // Use the ref for Typed.js
 };
 
 export default TypingEffect;
