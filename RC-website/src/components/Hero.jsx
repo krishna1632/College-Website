@@ -47,14 +47,14 @@ function Hero() {
               </div>
 
               <div className="flex items-center">
-                <div className=" text-[#fff] font-bold flex items-center flex-col select-none text-[0.9rem]">
-                  <div className=" ">
+                <div className=" text-[#fff] font-bold flex items-center flex-col  text-[0.9rem]">
+                  <div className=" select-none">
                     G-18B, CR Park Main Rd, Near Deshbandhu College, University
                   </div>
                   <div>of Delhi, Block H, Kalkaji, New Delhi, Delhi 110019</div>
                 </div>
 
-                <div className="">
+                <div className="cursor-pointer">
                   <img
                     className=" h-[69px]"
                     src="public/Hero_images/location.png"
