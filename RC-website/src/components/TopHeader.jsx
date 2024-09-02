@@ -3,9 +3,11 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa6";
 import { SiGoogletranslate } from "react-icons/si";
+import { IoLogoInstagram } from "react-icons/io5";
+import { FaSearch } from "react-icons/fa";
 
 const TopHeader = () => {
-  const link_left = [
+  const link_one = [
     {
       name: "NAAC",
     },
@@ -17,7 +19,7 @@ const TopHeader = () => {
       name: "IQAC",
     },
 
-    {
+    {  
       name: "RC IGNOU Centre",
     },
 
@@ -25,15 +27,17 @@ const TopHeader = () => {
       name: "RC Virtual Tour",
     },
 
-    {
-      name: "Research",
-    },
+    { icon: <FaSearch />,
+       name: "Research" },
   ];
-  const link_right = [
+  const link_two = [
     {
       icon: <MdLogin />,
       name: "Login",
     },
+  ];
+
+  const link_three = [
     {
       icon: <FaLinkedinIn />,
     },
@@ -45,39 +49,86 @@ const TopHeader = () => {
     {
       icon: <FaFacebookF />,
     },
+    {
+      icon: <IoLogoInstagram />,
+    },
+  ];
 
+  const link_four = [
     {
       icon: <SiGoogletranslate />,
       name: "हिंदी",
     },
 
     {
-      name: "A+ /",
+      name:"/",
     },
 
     {
-      name: "A-",
+      name: "A+/A-",
     },
   ];
+
   return (
-    <header>
-      <div className="flex  items-center gap-5 bg-[#463BAC] text-white h-[33px] fontDesign list-none">
-        {link_left.map((item,index)=>{
-          return <li key={index} className="curser-pointer">
-            {item.name}
-          </li>
-        })}
-        <div className="flex ml-[700px] p">
-        {link_right.map((item,index)=>{
-          return <li key={index} className="curser-pointer">
-            {item.icon}
-            {item.name}
-          </li>
-        })}
+    <>
+      <div className=" flex justify-around bg-[#463BAC] text-white font-bold h-[33px] w-screen font_Design list-none cursor-pointer ">
+        <div className="flex justify-center items-center gap-5">
+          {link_one.map((item, index) => {
+            return (
+              <li
+                key={index}
+                className="flex gap-1 justify-center items-center"
+              >
+                {item.icon}
+                {item.name}
+              </li>
+            );
+          })}
         </div>
-        
+
+        <div className="flex justify-center items-center gap-12">
+          <div className="flex">
+            {link_two.map((item, index) => {
+              return (
+                <li 
+                key={index}
+                className="flex gap-1 justify-center items-center text-[10px]">
+                  
+                    {item.icon}
+                    {item.name}
+                  
+                </li>
+              );
+            })}
+          </div>
+
+          <div className="flex gap-2">
+            {link_three.map((item, index) => {
+              return (<li 
+                key={index}
+                className="flex  justify-center items-center text-[13px]"
+                >{item.icon}
+                </li>);
+            })}
+          </div>
+
+          <div className="flex gap-1">
+            {link_four.map((item, index) => {
+              return (
+                <li key={index}
+                  className=" flex justify-center items-center gap-1 text-[12px]"
+                >
+                  
+                    {item.icon}
+                    {item.name}
+                  
+                </li>
+              );
+            })}
+          </div>
+        </div>
       </div>
-    </header>
+    </>
   );
 };
 
