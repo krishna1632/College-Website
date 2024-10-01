@@ -5,6 +5,7 @@ import NewsEvents from "./components/NewsEvents";
 import Courses from "./components/Courses";
 import Total from "./components/Total";
 import Footer from "./components/Footer";
+import Feature from "./components/Feature.jsx";
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <header>
         <TopHeader></TopHeader>
         <Hero></Hero>
+        <Feature></Feature>
 
 
       </header>

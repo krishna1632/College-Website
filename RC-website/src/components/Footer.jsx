@@ -12,7 +12,7 @@ function Footer() {
             <p className="ml-12">University Of Delhi</p>
             <p>NAAC Grade A++ With CGPA 3.71</p>
           </span>
-          <p className="gmail">RAMANUJANCOLLEGE2010@GMAIL.COM</p>
+          <p className="gmail">RAMANUJANCOLLEGE2010@GMAIL.COM</p>  
 
           <p id="no">+91934738920328</p>
 
