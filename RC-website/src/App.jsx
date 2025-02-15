@@ -19,7 +19,7 @@ function App() {
       <header>
         <TopHeader></TopHeader>
         <Hero></Hero>
-        <Feature></Feature>
+        {/* <Feature></Feature> */}
 
 
       </header>
